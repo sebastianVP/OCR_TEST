@@ -1,5 +1,7 @@
 from PIL import Image
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+
 
 # Cargar la imagen
 image_path = "Captura_001.PNG"  # Cambia por la ruta de tu imagen
